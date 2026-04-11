@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');                                                        /* Importing the mongoose library for MongoDB. */
-mongoose.connect('mongodb+srv://admin:Codes2108@cluster0.bfysxu8.mongodb.net/');             /* Connect to MongoDB, here admin is the username and after the(:) Pranab@100 is the password for this cluster which was make while creation. */
-
+mongoose.connect('mongodb+srv://cluster_username:cluster_password@cluster0.bfysxu8.mongodb.net/');
+                                                                                             /* Connect to MongoDB, here admin is the username and after the(:) Pranab@100 is the password for this cluster which was make while creation. */
 
 const AdminSchema = new mongoose.Schema({                                                    /* Defining the schema/structure for the Admin, means only in which way the data need to be put. */
         
